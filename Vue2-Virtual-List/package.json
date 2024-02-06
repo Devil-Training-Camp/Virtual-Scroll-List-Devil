@@ -1,0 +1,16 @@
+{
+  "name": "vue2-virtual-list",
+  "version": "1.0.0",
+  "description": "vue2虚拟滚动列表组件",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "install-all": "npm --prefix server install && npm --prefix vue2 install",
+    "server:dev": "cd server && npm run dev",
+    "vue2:dev": "cd vue2 && npm run serve"
+  },
+  "author": "",
+  "license": "ISC"
+}

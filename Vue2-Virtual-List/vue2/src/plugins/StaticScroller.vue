@@ -28,7 +28,7 @@ export default {
   },
   mounted() {
     this.calMaxCount()
-    console.log('this.maxCount',this.maxCount)
+    // console.log('this.maxCount',this.maxCount)
   },
   activited() {
     this.$nextTick(() => {
@@ -72,8 +72,8 @@ export default {
   },
   methods: {
     calMaxCount() {
-      console.log('this.$refs.wrapperRef.clientHeight',this.$refs.wrapperRef.clientHeight)
-      console.log('this.rowHeight',this.rowHeight)
+      // console.log('this.$refs.wrapperRef.clientHeight',this.$refs.wrapperRef.clientHeight)
+      // console.log('this.rowHeight',this.rowHeight)
       this.maxCount = Math.ceil(this.$refs.wrapperRef.clientHeight / this.rowHeight)
     },
     setScrollBarHeight() {

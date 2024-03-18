@@ -6,7 +6,7 @@ npm install my-react-virtual-list
 ```
 
 ## 使用
-示例：[codesandbox](https://codesandbox.io/p/devbox/react-virtual-list-hzknxj)
+在线示例：[codesandbox](https://codesandbox.io/p/devbox/react-virtual-list-hzknxj)
 ```tsx
 import VirtualList, { DIRECTION } from 'my-react-virtual-list'
 import type { ItemStyle }  from 'my-react-virtual-list'

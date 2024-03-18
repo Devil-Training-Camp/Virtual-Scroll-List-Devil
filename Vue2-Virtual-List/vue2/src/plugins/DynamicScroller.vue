@@ -93,7 +93,7 @@ export default {
   methods: {
     calMaxCount() {
       this.maxCount = Math.ceil(this.$refs.wrapperRef.clientHeight / this.rowHeight)
-      console.log('maxCount', this.maxCount);
+      // console.log('maxCount', this.maxCount);
     },
     // todo 区别
     cacheItemPos() {
